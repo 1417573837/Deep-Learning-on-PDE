@@ -71,19 +71,17 @@ My idea, but doesn't work well. I assumed that the neural network is hard to fit
 ## Code Structure
 There are several parts:
 
-main.py: Assemble each part, including model definition and training control
 
-./PDE/PDExx.py: the definition of PDE, including equations, boundaries, etc.
 
-plotting.py: customized plot settings and fine control
-
-conditional_print.py: Just for fun, add some visual effects to the result reports in the console. Losses values will be green if smaller than the last one, green and underlined if smallest in history, otherwise red.
-
-VectorDenseLayerV2.py: defines the Vector Dense Layer
-
-SAIS.py: Perform self-adaptive Importance Sampling
-
-DataGenerate: Generate training points for PDE. You may adjust it for different PDE problems.
+|File name | Description|
+|---|---|
+|main.py | Assemble each part, including model definition and training control|
+|PDE/PDExx.py| The definition of PDE, including equations, boundaries, etc.|
+|plotting.py| Customized plot settings and fine control|
+|conditional_print.py| Just for fun, add some visual effects to the result reports in the console. Losses values will be green if smaller than the last one, green and underlined if smallest in history, otherwise red.|
+|VectorDenseLayerV2.py| Defines the Vector Dense Layer|
+|SAIS.py|Perform self-adaptive Importance Sampling|
+|DataGenerate| Generate training points for PDE. You may adjust it for different PDE problems.|
 
 ## To whom may want to go further:
 Try levenberg-marquardt optimizor, since I was not very sure if I used it correctly.
@@ -91,6 +89,8 @@ Try levenberg-marquardt optimizor, since I was not very sure if I used it correc
 You may use pytorch instead of TensorFlow, since pytorch is the mainstream in the PINN area.
 
 You may try DeepXDE library, which is more convenient.
+
+PINN is very hopeful.
 
 ## Acknowledgement
 Thanks to the guidance from Pro.Bin Han, the support from Dr.Qiwei Feng, and the scholarship from the Chinese Scholarship Council.
