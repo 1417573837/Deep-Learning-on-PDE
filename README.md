@@ -1,5 +1,5 @@
 # Deep-Learning-on-PDE
-A summary of Yucheng's work, supervised by Pro.Bin Han, sponsored by CSC 
+A summary of Yucheng's work, supervised by Prof. Bin Han, sponsored by CSC 
 
 Solving Second-order Elliptic Interface problems with Mixed Boundary Conditions
 
@@ -93,6 +93,6 @@ You may try DeepXDE library, which is more convenient.
 PINN is very hopeful.
 
 ## Acknowledgement
-Thanks to the guidance from Pro.Bin Han, the support from Dr.Qiwei Feng, and the scholarship from the Chinese Scholarship Council.
+Thanks to the guidance from Prof. Bin Han, the support from Dr.Qiwei Feng, and the scholarship from the Chinese Scholarship Council.
 
 
