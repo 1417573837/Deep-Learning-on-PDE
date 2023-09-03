@@ -6,18 +6,26 @@ Solving Second-order Elliptic Interface problems with Mixed Boundary Conditions
 # Best Results
 1. Poisson equation with Dirichlet and Neumann boundary condition and one closed interface
 
+![](https://github.com/1417573837/Deep-Learning-on-PDE/blob/main/Best%20Results/Probelm1.png)
+
 solution:
 ![](https://github.com/1417573837/Deep-Learning-on-PDE/blob/main/Best%20Results/3_1%20VDL%20v5.5/U2D%20400.jpg)
+
 solution's gradient (of x):
 ![](https://github.com/1417573837/Deep-Learning-on-PDE/blob/main/Best%20Results/3_1%20VDL%20v5.5/Ux2D%20400.jpg)
 3D plot:
 ![](https://github.com/1417573837/Deep-Learning-on-PDE/blob/main/Best%20Results/3_1%20VDL%20v5.5/U3DPred200.jpg)
 
 2. Poisson equation with Dirichlet boundary condition and cross interface
+
+![](https://github.com/1417573837/Deep-Learning-on-PDE/blob/main/Best%20Results/Probelm2.png)
+
 solution:
 ![](https://github.com/1417573837/Deep-Learning-on-PDE/blob/main/Best%20Results/CrossE5Simplified%20VDLV2%20SAIS%20v2.3/U2D%20200.jpg)
+
 solution's gradient (of x):
 ![](https://github.com/1417573837/Deep-Learning-on-PDE/blob/main/Best%20Results/CrossE5Simplified%20VDLV2%20v3.4/Ux2D%200.jpg)
+
 3D plot:
 ![](https://github.com/1417573837/Deep-Learning-on-PDE/blob/main/Best%20Results/CrossE5Simplified%20VDLV2%20v3.4/U3DPred0.jpg)
 
